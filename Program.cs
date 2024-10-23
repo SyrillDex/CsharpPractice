@@ -36,6 +36,7 @@ namespace CsharpPrac
                 default:
                     Console.WriteLine(day + "It is not a day");
                     break;
+                //Practice Switch on C#
             }
         }
     }
