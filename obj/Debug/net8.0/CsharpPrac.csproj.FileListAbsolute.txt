@@ -1,0 +1,15 @@
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\bin\Debug\net8.0\CsharpPrac.exe
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\bin\Debug\net8.0\CsharpPrac.deps.json
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\bin\Debug\net8.0\CsharpPrac.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\bin\Debug\net8.0\CsharpPrac.dll
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\bin\Debug\net8.0\CsharpPrac.pdb
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.dll
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\refint\CsharpPrac.dll
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.pdb
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.genruntimeconfig.cache
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\ref\CsharpPrac.dll
+C:\Users\LENOVO\OneDrive\Desktop\CsharpPrac\CsharpPrac\obj\Debug\net8.0\CsharpPrac.sourcelink.json
