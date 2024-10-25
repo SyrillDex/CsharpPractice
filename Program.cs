@@ -8,28 +8,31 @@ namespace CsharpPrac
     {
         static void Main(string[] args)
         {
-            int lives = 3;
-            do
-            {
-                Console.Write("What is my favorite food? ");
-                string answer = Console.ReadLine();
+            string[] usernames = { "Syrill", "Whilnhet", "Love", "Bebi" };
+            string[] passwords = {"Syrill123", "Whilnhet123", "Love123", "Bebi123" };
 
-                if (answer.Equals("Hotdog")){
-                    Console.WriteLine(answer + " is correct! \nCongratulations!");
+            Console.Write("Username: ");
+            string username = Console.ReadLine();
+
+            Console.Write("Password: ");
+            string password = Console.ReadLine();
+
+            Console.WriteLine();
+
+            for (int i = 0; i < usernames.Length; i++) 
+            { 
+                if (username.Equals(usernames[i]) && password.Equals(passwords[i]))
+                {
+                    Console.WriteLine("Welcome " + usernames[i]);
                     break;
                 }
                 else
                 {
-                    Console.WriteLine("Wrong!");
-                    lives--;
-                    Console.WriteLine("Lives left: " + lives);
+                    Console.WriteLine("User Not Found, Please try again");
                     Console.WriteLine();
-                    if(lives == 0)
-                    {
-                        Console.WriteLine("Game Over");
-                    }
                 }
-            } while (lives > 0);
+            }
+
         }
     }
 }
