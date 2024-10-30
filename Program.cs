@@ -8,19 +8,9 @@ namespace CsharpPrac
     {
         static void Main(string[] args)
         {
-            Console.Write("Input name: ");
-            string name = Console.ReadLine();
-
-            Console.Write("Input position: ");
-            string position = Console.ReadLine();
-
-            Console.Write("Input salary: ");
-            float salary = Convert.ToSingle(Console.ReadLine());
-
-            Console.Write("Input ratings: ");
-            char ratings = (char) Convert.ToChar(Console.ReadLine());
-
-            Employees employees = new Employees(name, position, salary, ratings);
+            Employees students = new Employees("John", "Doe", "2024", "CPe", "CAlimbo", 70, 90);
+            students.introduceSelf();
+            Console.WriteLine(students.evaluateGrade());
         }
 
     }
