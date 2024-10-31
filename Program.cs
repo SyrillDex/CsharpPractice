@@ -9,69 +9,50 @@ namespace CsharpPrac
         static void Main(string[] args)
         {
 
-            FastFoodMenu burger = new Burger("Burger", "Juicy", 76, "Mayo");
-            FastFoodMenu chicken = new Chicken("Chicken", "Flaky", 87, "Rough");
+            Students firstYear = new FirstYear("Kupal", 12);
+            Students secondYear = new SecondYear("Asim", 32);
 
-            burger.ingridients();
-            Console.WriteLine();
-            chicken.ingridients();
+            firstYear.studentInfo();
+            secondYear.studentInfo();
 
         }
     }
-    
-    class FastFoodMenu
+
+    abstract class Students
     {
         public string name { get; set; }
-        public string description { get; set; }
-        public float price { get; set; }
-        virtual public void ingridients()
-        {
-            Console.WriteLine("Ingridients : ");
-        }
+        public int age { get; set; }
 
-        public FastFoodMenu(string name, string description, float price)
+        public Students(string name, int age)
         {
             this.name = name;
-            this.description = description;
-            this.price = price;
+            this.age = age;
         }
-    }
-
-    class Burger : FastFoodMenu
-    {
-        public string sauce { get; set; }
-
-        
-
-        public Burger(string name, string description, float price, string sauce) 
-            : base(name, description, price) 
-        { 
-            this.sauce = sauce;
-        }
-        public override void ingridients()
-        {
-            base.ingridients();
-            Console.WriteLine("Has Buns, Pickles, Mustard, Ketchup, Patty");
-            Console.WriteLine(name + " " + description + " " + price + " " + sauce);
-        }
+        public abstract void studentInfo();
 
     }
 
-    class Chicken : FastFoodMenu
+    class FirstYear : Students
     {
-        public string texture  { get; set; }
-        public Chicken(string name, string description, float price, string texture)
-            : base(name, description, price)
-        {
-            this.texture = texture;
-        }
+        public FirstYear(string name, int age)
+            : base(name, age) { }
 
-        public override void ingridients()
+        public override void studentInfo()
         {
-            base.ingridients();
-            Console.WriteLine("Chicken, Breader, Oil, Seasoning");
-            Console.WriteLine(name + " " + description + " " + price + " " + texture);
+            Console.WriteLine("Name : " + name);
+            Console.WriteLine("Age  : " + age);
         }
+    }
 
+    class SecondYear : Students
+    {
+        public SecondYear(string name, int age)
+            : base(name, age) { }
+
+        public override void studentInfo()
+        {
+            Console.WriteLine("Name : " + name);
+            Console.WriteLine("Age  : " + age);
+        }
     }
 }

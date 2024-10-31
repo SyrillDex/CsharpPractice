@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpPrac")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+950e8a13e36929e7a35a1b05fce839e74f70ffb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c168543f05eee0a69783cab573bad8ed5fb860b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpPrac")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpPrac")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
